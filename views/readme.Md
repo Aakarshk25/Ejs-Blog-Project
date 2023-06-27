@@ -19,3 +19,9 @@ explanation ,
   ex- var myobj={title:req.body.title,
    content:req.body.main}
 }) this is two alue pair seprated with coma.
+
+
+Route Parameter is very important topic .
+https://expressjs.com/en/guide/routing.html
+
+note -> rs is used to restart your noadman server.
