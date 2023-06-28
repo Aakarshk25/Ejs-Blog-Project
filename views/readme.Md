@@ -1,7 +1,14 @@
+to start the ejs server in github bash you havr to wirte cmd 
+nodemon app.js.
+
+
+
 <%=myvar%>  this sign is used to replace the file in app.js
 <%- include('header')-%> we can render the layout from one age to another page.
 <%- include header.ejs -%> this is another methaod to render the layout.
+ 
 
+ 1
  app.get('/about',function(req,res){
   res.render('about',{see:aboutContent})
 }) 
@@ -25,3 +32,7 @@ Route Parameter is very important topic .
 https://expressjs.com/en/guide/routing.html
 
 note -> rs is used to restart your noadman server.
+note -> lodash is very usefull to escape or get rid with upper case and lower case of tite when you search in a search bar
+
+truncate the chareters into a limited words by using 
+        ex =  <p><%=post.content.substring(0 , 100) + "..."%></p>
