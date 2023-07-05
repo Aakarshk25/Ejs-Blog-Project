@@ -36,3 +36,5 @@ note -> lodash is very usefull to escape or get rid with upper case and lower ca
 
 truncate the chareters into a limited words by using 
         ex =  <p><%=post.content.substring(0 , 100) + "..."%></p>
+
+        New github trick => https://github.com/Aakarshk25/Ejs-Blog-Project/edit/main/readme.md . => just add S in between the github and see the magic
